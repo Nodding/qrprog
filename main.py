@@ -11,7 +11,7 @@ def main():
                                                 Config.QR_CODE_DEFAULT_FILE_NAME)
 
     qr_image = create_qr_code_image(Config.QR_CODE_DEFAULT_URL)
-    for i in range(0, 10):
+    for i in range(0, 1):
         while True:
             try:
                 qr_image.save(directory_path_and_file_name)
